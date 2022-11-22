@@ -1,7 +1,7 @@
 FROM --platform=linux/amd64 kong:2.8.1-alpine
 LABEL fankehao fankehao@shuinfo.com
 
-ENV KONG_PLUGINS_TAG "0.0.13"
+ENV KONG_PLUGINS_TAG "0.0.14"
 ENV KONG_PLUGINS 'bundled, digiprime-jwt'
 
 USER root
