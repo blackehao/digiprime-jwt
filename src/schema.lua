@@ -17,6 +17,8 @@ return {
                     { secret_is_base64 = { type = "boolean", required = true, default = false } },
                     { secret_key = { type = "string", required = true, default = "^yTrOcL1Mkx!WJHOtVeun#mXjxc*DjBA" } },
                     { secret_key_miniapp = { type = "string", required = true, default = "^yTrOcL1Mkx!WJHOtVeun#mXjxc*DjBA" } },
+                    { secret_key_pos = { type = "string", required = true, default = "^yTrOcL1Mkx!WJHOtVeun#mXjxc*DjBA" } },
+                    { secret_key_sass = { type = "string", required = true, default = "^yTrOcL1Mkx!WJHOtVeun#mXjxc*DjBA" } },
                     { is_expiration = { type = "boolean", required = false, default = false } },
                     {
                         header_names = {
