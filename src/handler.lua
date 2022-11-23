@@ -185,6 +185,8 @@ local function do_authentication(conf)
         jwt_secret_value = algorithm ~= nil and algorithm:sub(1, 2) == "HS" and conf.secret_key
     end
 
+    io.write(tostring(channel))
+    io.write(tostring(jwt_secret_value))
     if conf.secret_is_base64 then
         jwt_secret_value = jwt:base64_decode(jwt_secret_value)
     end
