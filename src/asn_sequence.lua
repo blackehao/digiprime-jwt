@@ -16,7 +16,8 @@ local _M = {
         POS_ACCOUNT = "pos-account",
         POS_DEVICE = "pos-device",
         POS_STORE = "pos-store",
-        NAME = "name"
+        NAME = "name",
+        IAT = "iat"
     }
 }
 
