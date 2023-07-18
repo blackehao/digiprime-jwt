@@ -17,9 +17,9 @@ local _M = {
         POS_DEVICE = "pos-device",
         POS_STORE = "pos-store",
         NAME = "name",
-        IAT = "iat"
-        PLATFORM_USER_ID = "platform_user_id"
-        ADMIN_USER_ID =  "admin_user_id"
+        IAT = "iat",
+        PLATFORM_USER_ID = "platform_user_id",
+        ADMIN_USER_ID =  "admin_user_id",
         ADMIN_USER_NO = "admin_user_no"
     }
 }
